@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import 'source-map-support/register';
 import * as cdk from 'aws-cdk-lib';
-import { AwsQuotaManagerStack } from '../lib/aws-quota-manager-stack';
+import { AwsQuotaManagerStack } from '../lib/stacks/aws-quota-manager-stack';
 
 const app = new cdk.App();
 new AwsQuotaManagerStack(app, 'AwsQuotaManagerStack', {
